@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachito de Cielo </title>
+    <link rel="icon" href="img/coffe.ico.crdownload" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>    <!--Encabezado (asi se comenta)-->
+    <header>
+        <h1>Cafetería hecha con amor y un pedacito de cielo</h1>
+    </header>
+
+    <div class="Nav-bg">
+        <nav class="NavPrincipal contenedor">
+            <a class="navegacion_enlace" href="index.html">Inicio</a>
+            <a class="navegacion_enlace" href="nosotros.html">Sobre Nosotros</a>
+            <a class="navegacion_enlace" href="clientes.html">Clientes</a>
+            <a class="navegacion_enlace" href="#">Contacto</a>
+
+        </nav>
+    </div>
+
+    <main class="contenedor sombra">  
+        <h2>Roles de canela</h2> 
+
+    <div class="grid">
+        <div class="comida"> 
+            <a>
+                <img class="pro_imagen" src="img/cafe.jpeg" alt="latte">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Latte en las Rocas</p>
+                    <p class="pro_precio">$75</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="bebida_latte_rocas">
+                        <input type="hidden" name="name" value="Latte en las Rocas">
+                        <input type="hidden" name="price" value="75.00">
+                        <input type="hidden" name="image" value="img/cafe.jpeg">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+       <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/choco.jpeg" alt="chocolate caliente">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">chocolate Caliente</p>
+                    <p class="pro_precio">$65</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="bebida_chocolate_caliente">
+                        <input type="hidden" name="name" value="Chocolate Caliente">
+                        <input type="hidden" name="price" value="65.00">
+                        <input type="hidden" name="image" value="img/choco.jpeg">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/latte.jpeg" alt="latte de caramelo">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Latte de Caramelo</p>
+                    <p class="pro_precio">$75</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="bebida_latte_caramelo">
+                        <input type="hidden" name="name" value="Latte de Caramelo">
+                        <input type="hidden" name="price" value="75.00">
+                        <input type="hidden" name="image" value="img/latte.jpeg">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/berry.jpeg" alt="matcha berry">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Matcha Berry</p>
+                    <p class="pro_precio">$85</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="bebida_matcha_berry">
+                        <input type="hidden" name="name" value="Matcha Berry">
+                        <input type="hidden" name="price" value="85.00">
+                        <input type="hidden" name="image" value="img/berry.jpeg">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/italiana.jpeg" alt="rol de brownie">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Soda Italiana</p>
+                    <p class="pro_precio">$70</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="bebida_soda_italiana">
+                        <input type="hidden" name="name" value="Soda Italiana">
+                        <input type="hidden" name="price" value="70.00">
+                        <input type="hidden" name="image" value="img/italiana.jpeg">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/tisiana.jpeg" alt="tisiana">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Tisiana</p>
+                    <p class="pro_precio">$75</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="bebida_tisiana">
+                        <input type="hidden" name="name" value="Tisiana">
+                        <input type="hidden" name="price" value="75.00">
+                        <input type="hidden" name="image" value="img/tisiana.jpeg">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida--> 
+    </div>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Cachito de Cielo</p>
+    </footer> <!--cierre pie de pagina-->
+
+</body>
+</html>

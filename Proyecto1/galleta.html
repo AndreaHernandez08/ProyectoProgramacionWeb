@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachito de Cielo </title>
+    <link rel="icon" href="img/coffe.ico.crdownload" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>    <!--Encabezado (asi se comenta)-->
+    <header>
+        <h1>Cafetería hecha con amor y un pedacito de cielo</h1>
+    </header>
+
+    <div class="Nav-bg">
+        <nav class="NavPrincipal contenedor">
+            <a class="navegacion_enlace" href="index.html">Inicio</a>
+            <a class="navegacion_enlace" href="nosotros.html">Sobre Nosotros</a>
+            <a class="navegacion_enlace" href="clientes.html">Clientes</a>
+            <a class="navegacion_enlace" href="#">Contacto</a>
+
+        </nav>
+    </div>
+
+    <main class="contenedor sombra">  
+        <h2>Galletas</h2> 
+
+    <div class="grid">
+        <div class="comida"> 
+            <a>
+                <img class="pro_imagen" src="img/oreo.png" alt="galleta oreo">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Galleta de Oreo</p>
+                    <p class="pro_precio">$65</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="galleta_oreo">
+                        <input type="hidden" name="name" value="Galleta de Oreo">
+                        <input type="hidden" name="price" value="65.00">
+                        <input type="hidden" name="image" value="img/oreo.png">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+       <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/lotu.png" alt="galleta de lotus">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Galleta de Lotus</p>
+                    <p class="pro_precio">$70</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="galleta_lotus">
+                        <input type="hidden" name="name" value="Galleta de Lotus">
+                        <input type="hidden" name="price" value="70.00">
+                        <input type="hidden" name="image" value="img/lotu.png">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/smore.png" alt="smore">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Galleta de Smore</p>
+                    <p class="pro_precio">$70</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="galleta_smore">
+                        <input type="hidden" name="name" value="Galleta de Smore">
+                        <input type="hidden" name="price" value="70.00">
+                        <input type="hidden" name="image" value="img/smore.png">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/principe.png" alt="principe">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Galletas de Principe</p>
+                    <p class="pro_precio">$65</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="galleta_principe">
+                        <input type="hidden" name="name" value="Galletas de Principe">
+                        <input type="hidden" name="price" value="65.00">
+                        <input type="hidden" name="image" value="img/principe.png">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/monster.png" alt="monster">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Monster Cookie (por temporada)</p>
+                    <p class="pro_precio">$75</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="galleta_monster">
+                        <input type="hidden" name="name" value="Monster Cookie (por temporada)">
+                        <input type="hidden" name="price" value="75.00">
+                        <input type="hidden" name="image" value="img/monster.png">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida-->
+        <div class="comida">
+            <a>
+                <img class="pro_imagen" src="img/cake.png" alt="cake">
+                <div class="pro_informacion">
+                    <p class="pro_nombre">Galletas Birthday Cake</p>
+                    <p class="pro_precio">$70</p>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="galleta_birthday">
+                        <input type="hidden" name="name" value="Galletas Birthday Cake">
+                        <input type="hidden" name="price" value="70.00">
+                        <input type="hidden" name="image" value="img/cake.png">
+                        <button class="form_submit" type="submit">Agregar al carrito</button>
+                    </form>
+                </div>
+            </a>
+        </div> <!--cierre comida--> 
+    </div>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Cachito de Cielo</p>
+    </footer> <!--cierre pie de pagina-->
+
+</body>
+</html>
